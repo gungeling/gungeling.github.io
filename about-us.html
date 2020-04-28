@@ -6,6 +6,7 @@
     <title>Hanbin Florist - About Us</title>
     <link rel="stylesheet" href="assets/css/setting.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
     <section class="fit-height">
@@ -20,16 +21,20 @@
                         </div>
                     </div>
 				</div>
-                    <div class="col-12 list-navigation">
-                        <ul>
-                            <li><a href="index.html">home</a></li>
-                            <li><a href="shop.html">shop</a></li>
-                            <li><a href="custom-order.html">custom order</a></li>
-                            <li class="active"><a href="about-us.html">about us</a></li>
-                            <li><a href="contact.html">contact</a></li>
-                        </ul>
-                    </div>
-            	</nav>
+                <div class="col-12 list-navigation">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="shop.html">shop</a></li>
+                        <li><a href="best-seller.html">best seller</a></li>
+                        <li><a href="custom-order.html">custom order</a></li>
+                        <li class="active"><a href="about-us.html">about us</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+                <div class="toggle-section item-center">
+                    <img src="assets/img/chevron-down.png" alt="" id="toggle-nav-chevron" class="toggle-nav-dropdown" selector="list-navigation">
+                </div>
+            </nav>
         </header>
         <div class="container-fluid about-us-content-section">
             <div class="col-12 content-about-us-title">
@@ -37,7 +42,7 @@
             </div>
 
             <div class="container">
-                <div class="col-12 form-section item-center w-100">
+                <div class="col-12 about-us-desc-section item-center w-100">
                     <div class="col-8">
                         <div class="w-100 content-about-us-desc">
                             <p>
@@ -77,5 +82,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="assets/plugins/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>

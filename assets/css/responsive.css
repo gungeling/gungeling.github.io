@@ -1,0 +1,49 @@
+@media screen and (max-width: 576px){
+    /* custom order */
+    .custom-order-content-section .form-section .form-row .col,
+    .contact-content-section .form-section .form-row .col{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 1.5rem;
+    }
+    .custom-order-content-section .form-section .form-row .col:last-child,
+    .contact-content-section .form-section .form-row .col:last-child{
+        margin-bottom: 0rem;
+    }
+}
+@media screen and (max-width: 992px){
+    .header .list-navigation ul{
+        width: 100%;
+        display: none;
+    }
+    .header .list-navigation li{
+        width: 100%;
+        display: block !important;
+        padding: .5em 0em !important;
+    }
+    .header .list-navigation li a{ padding-bottom: 0 !important; }
+
+    .header .toggle-section{ display: flex; }
+    
+    /* shop */
+    /* best seller */
+    /* custom order */
+    /* about us */
+    /* contact */
+    .shop-content-section .shop-content-product .product-list .product-box,
+    .best-seller-section .best-seller-product .product-list .product-box,
+    .custom-order-content-section .form-section,
+    .custom-order-content-section .form-section .col-8,
+    .about-us-content-section .about-us-desc-section,
+    .about-us-content-section .about-us-desc-section .col-8,
+    .contact-content-section .form-section,
+    .contact-content-section .form-section .col-8{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .footer-fluid .copyright,
+    .footer-fluid .list-web-info{ justify-content: center; }
+    .footer-fluid .list-sosmed,
+    .footer-fluid .list-web-info{ margin-top: 1em; }
+}

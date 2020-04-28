@@ -196,6 +196,7 @@ textarea {
 .btn-orange-shallow:hover{ background: transparent; color: #f4ad3d; transition: all .5s; }
 
 .section-title{ color: #38220f; }
+.rotate-toggle{ transform: rotate(0deg) !important; }
 
 /* container responsive */
 @media only screen and (min-width: 576px){
