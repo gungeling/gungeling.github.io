@@ -50,7 +50,7 @@
 }
 
 .header .toggle-section{ padding-bottom: 2em; display: none; }
-.header .toggle-section .toggle-nav-dropdown{ width: 30px; transform: rotate(180deg); }
+.header .toggle-section .toggle-nav-dropdown{ width: 30px; height: 30px; transform: rotate(180deg); }
 
 /* home */
 .welcome-overlay{
