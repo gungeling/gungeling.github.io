@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	$('.toggle-nav-dropdown').on('click', function(){
         var show_nav = $(this).attr('alt');
-
         $('.header .'+show_nav+' ul').slideToggle();
         $('.header #toggle-nav-chevron').toggleClass('rotate-toggle');
     });
